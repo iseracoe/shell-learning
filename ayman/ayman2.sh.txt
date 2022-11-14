@@ -1,0 +1,8 @@
+#!/bin/sh
+#addition of two values
+
+echo "enter the value of x"
+read x
+echo "enter the value of y"
+read y
+echo "sum=$((x+y))"
