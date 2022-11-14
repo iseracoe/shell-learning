@@ -1,0 +1,5 @@
+#!/bin/sh
+
+name="ali"
+readonly name
+name="arshad"

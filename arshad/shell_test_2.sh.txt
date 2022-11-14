@@ -1,0 +1,9 @@
+#!/bin/sh
+
+read -p "enter the number:" num1
+if [[ "$num1" = 4 ]]
+then
+        echo "correct"
+else
+        echo "incorrect"
+fi
