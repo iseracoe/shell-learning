@@ -1,0 +1,9 @@
+#!/bin/sh
+#Author: Ahmed Sayeed
+
+echo "what is your name?"
+read Name
+echo "Hello, $Name"
+echo "what is your DOB?"
+read DOB
+echo "Your DOB is 1st January, 1994"
