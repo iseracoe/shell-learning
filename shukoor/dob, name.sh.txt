@@ -1,0 +1,8 @@
+#!/bin/sh
+#author: shukoor
+
+echo "what is your name?"
+echo "what is your DOB"
+read DOB
+read NAME
+echo "YOUR DOB AND NAME IS $DOB , $NAME"
