@@ -1,0 +1,6 @@
+#!/bin/sh
+#author: Ali Arshad
+
+pwd
+ls
+mkdir wassup
