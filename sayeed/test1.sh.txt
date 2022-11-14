@@ -1,0 +1,7 @@
+#!/bin/sh
+#Author: Ahmed Sayeed
+
+
+echo "My name is Ahmed Sayeed"
+ls
+pwd
