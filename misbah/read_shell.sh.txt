@@ -1,0 +1,9 @@
+#!/bin/sh
+#Author:misbah
+echo "what is your name?"
+read name
+read dob
+echo "hello, $name $dob"
+~                                                                                                                                               
+~                                                                                                                                               
+~                                                                                                                                               
