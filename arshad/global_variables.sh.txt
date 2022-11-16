@@ -1,0 +1,9 @@
+#!/bin/sh
+#
+
+NAME="ALI"
+getName(){
+        echo "$NAME (from funtion)"
+}
+echo "$NAME - (outside funtion)"
+getName
