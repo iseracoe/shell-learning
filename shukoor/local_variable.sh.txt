@@ -6,7 +6,6 @@ Name="shukoor"  #local variable
 fruit="apple"
 echo "$Name (from function)" #valid if called using function
 }
-
 echo "$Name - (outside function)" #invalid here
 getName
 echo "$fruit"
