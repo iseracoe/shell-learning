@@ -1,0 +1,12 @@
+#!/bin/sh
+
+getName (){
+        NAME="ALI" #local variable
+        echo "$NAME (from function)" #valid if called using function
+        local  FRUIT="APPLE"
+}
+
+echo "$NAME - (outside function)" #invalid here
+getName
+
+echo "$FRUIT pop "
