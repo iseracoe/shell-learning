@@ -1,0 +1,12 @@
+!/bin/sh
+#author:misbah khaja
+MY_NAME="misbah"
+readonly MY_NAME
+MY_NAME="khaja"
+~                                                                                                                                               
+~                                                                                                                                               
+~                                                                                                                                               
+~                                                                                                                                               
+~                                                                                                                                               
+~                                                                                                                                               
+~                                          

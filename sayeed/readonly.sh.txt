@@ -1,0 +1,7 @@
+#!/bin/sh
+#Author: Ahmed Sayeed
+
+
+My_Name="Matin"
+readonly My_Name
+My_Name="Abdul"

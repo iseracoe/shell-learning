@@ -1,0 +1,8 @@
+#!/bin/sh
+#author: shukoor
+echo " enter the value of a"
+read a
+echo "the value entered is $a"
+echo "press yes if correct"
+read yes
+echo "thank you"

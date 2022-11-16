@@ -1,0 +1,4 @@
+#!/bin/sh
+#Author: Ahmed Sayeed
+My_name="Ahmed Sayeed"
+echo $My_name

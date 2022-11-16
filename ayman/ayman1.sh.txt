@@ -1,0 +1,8 @@
+#!/bin/sh
+#author: ayman abdul
+
+
+echo "what is your name?"
+read name
+read dob
+echo "hello, $name $dob"

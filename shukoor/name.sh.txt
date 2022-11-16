@@ -1,0 +1,4 @@
+#!/bin/sh
+#author: shukoor
+Y_NAME="SHUKOOR"
+echo $Y_NAME
