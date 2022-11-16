@@ -1,0 +1,13 @@
+#/bin/sh
+#author:imaadfarooqui
+
+
+getName(){
+NAME="Matin" #local variable    
+FRUIT="Apple" #local variable
+echo "$NAME (from function)" #valid if called using function
+}
+
+echo "$NAME - (outside function)" #invalid here
+getName
+echo "$FRUIT

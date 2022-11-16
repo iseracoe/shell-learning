@@ -1,0 +1,11 @@
+#!bin/sh
+#author
+
+
+NAME="Man"
+getName(){
+        echo "$NAME {from function)" #valid if called using function
+}
+
+echo "$NAME - (outside function)" #invalid here
+getname
