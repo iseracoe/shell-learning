@@ -1,0 +1,10 @@
+#!/bin/sh
+#Author: abdul shukoor
+
+name="shukoor"
+getname(){
+        echo "$name (from function)"
+}
+
+echo "$name - (outside function)"
+getname
