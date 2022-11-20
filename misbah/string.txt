@@ -1,0 +1,24 @@
+#!/bin/sh
+#author : misbah
+
+a="abc"
+b="xyz"
+
+if [ -z $a ]
+then
+        echo "string size is zero"
+else
+        echo "string size is not zero"
+fi
+if [ -n $b ]
+then
+echo "string size is not zero"
+else
+        echo "true"
+fi
+
+if [ $a ]
+then
+        echo "$a : string is not empty"
+else
+        echo "$a : string is empty"
