@@ -1,0 +1,13 @@
+#!/bin/sh
+#author : misbah
+
+getName(){
+local Name="misbah" #local_variable
+local Fruit="apple"
+echo "$Name-(from function)" #valid if called using function
+}
+
+echo "$Name-(outside function)" #invalid here
+getName
+echo "$Fruit-(outside function)" #invalid here
+~          
