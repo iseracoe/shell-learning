@@ -1,0 +1,18 @@
+#!/bin/sh
+#author: shukoor
+
+echo "Which color do you like best?"
+echo "1 - blue"
+echo "2 - red"
+echo "3 - yellow"
+echo "4 - green"
+echo "5 - orange"
+read color;
+case $color in
+        1) echo "blue is a primary colour.";;
+        2) echo "red is a primary coloe.";;
+        3) echo "yellow is a primary color";;
+        4) echo "green is a srecondary color";;
+        5) echo "orange is secondary colour";;
+        *) echo "choose a correct option";;
+esac
