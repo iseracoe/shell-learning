@@ -1,0 +1,21 @@
+#!/bin/sh
+#author: shukoor
+
+echo "enter the value of a"
+read a
+echo "enter the value of b"
+read b
+echo "choose any one from the following operator"
+echo "1 - add"
+echo "2 - sub"
+echo "3 - div"
+echo "4 - mul"
+
+read operator;
+case $operator in
+        1) echo "the sum is $((a+b)).";;
+        2) echo "the diffrence is $((a-b))";;
+        3) echo "the div is $((a%b))";;
+        4) echo "the mul is $((a*b))";;
+        *) echo "enter correct option";;
+esac
