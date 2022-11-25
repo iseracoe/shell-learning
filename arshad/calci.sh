@@ -15,19 +15,23 @@ echo "3 - Multiplication"
 echo "4 - Division"
 read option
 
-sum=`expr $num1 + $num2`
-subt=`expr $num1 - $num2`
-mul=`expr $num1 \* $num2`
-div=`expr $num1 / $num2`
+#sum=`expr $num1 + $num2`
+#subt=`expr $num1 - $num2`
+#mul=`expr $num1 \* $num2`
+#div=`expr $num1 / $num2`
 
 case $option in
-        1) echo "addition of $num1 and $num2 is $sum "
+	1) c=`expr $num1 + $num2`
+		echo "addition of $num1 and $num2 is $c"
                 ;;
-        2) echo "subtraction of $num1 and $num2 is $subt"
+        2) c=`expr $num1 - $num2`
+		echo "subtraction of $num1 and $num2 is $c"
                 ;;
-        3) echo "multiplication of $num1 and $num2 is $mul"
+        3) c=`expr $num1 \* $num2`
+		echo "multiplication of $num1 and $num2 is $c"
                 ;;
-        4) echo "division of $num1 and $num2 is $div"
+        4) c=`expr $num1 / $num2`
+		echo "division of $num1 and $num2 is $((num1/num2))"
                 ;;
         *) echo "Please choose a valid option"
                 ;;
