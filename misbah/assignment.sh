@@ -13,37 +13,30 @@ a=${my_array[0]}
 b=${my_array[1]}
 if [ $a -eq $b ]
 then
-        echo " $a -eq $b : a is equal to b"
-else
-        echo " $a -eq $b :a is not equal to b"
+	echo " $a -eq $b : a is equal to b"
+else 
+	echo " $a -eq $b :a is not equal to b"
 fi
 if [ $a -ne $b ]
-then
-        echo " $a -ne $b : a is not equal to b"
+then 
+	echo " $a -ne $b : a is not equal to b"
 else
-        echo " $a -ne $b : a is equal to b"
+	echo " $a -ne $b : a is equal to b"
 fi
 a=${my_array[1]}
 b=${my_array[2]}
 if [ $a != $b ]
 
 then
-        echo " $a != $b : a is not equal to b"
+	echo " $a != $b : a is not equal to b"
 else
-        echo " $a != $b : a is equal to b"
+	echo " $a != $b : a is equal to b"
 fi
 a=${my_array[3]}
 b=${my_array[4]}
 if [ -z $a ]
 then
-        echo "string size is zero"
+	echo "string size is zero"
 else
-        echo "string size is not zero"
+	echo "string size is not zero"
 fi
-=======
-echo "enter value of x"
-read x
-echo "enter value of y"
-read y
-z=$((x+y))
-echo "sum = $z"
