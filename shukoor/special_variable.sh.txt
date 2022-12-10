@@ -1,0 +1,11 @@
+#!/bin/sh
+#author: shukoor
+
+echo "file name: $0"
+echo "first parameter : $1"
+echo "second parameter : $2"
+echo "fourth  parameter : $4"
+echo "third  parameter : $3"
+echo "quoted values: $@"
+echo "quoted values: $*"
+echo "total number of parameter : $#"

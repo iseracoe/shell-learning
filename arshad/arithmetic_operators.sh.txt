@@ -1,0 +1,29 @@
+#!/bin/sh
+
+a=10
+b=20
+
+add=`expr $a + $b`
+echo "sum of a and b: $add"
+
+sub=`expr $a - $b`
+echo "sub of a and b: $sub"
+
+mul=`expr $a \* $b`
+echo "mul of a and b : $mul"
+
+div=`expr $b / $a`
+echo "div of a and b: $div"
+
+val=`expr $b % $a`
+echo "remainder: $val"
+
+if [ $a == $b ]
+then
+        echo "a is equal to b"
+
+fi
+if [ $a != $b ]
+then
+        echo "a is not equal to b"
+fi
