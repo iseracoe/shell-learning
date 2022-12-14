@@ -40,3 +40,10 @@ then
 else
         echo "string size is not zero"
 fi
+=======
+echo "enter value of x"
+read x
+echo "enter value of y"
+read y
+z=$((x+y))
+echo "sum = $z"

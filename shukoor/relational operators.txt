@@ -1,0 +1,11 @@
+#!/bin/sh
+#author: shukoor
+
+my_array=("abdulshukoor" "cis" 102 1099876)
+echo "valuw on 3rd index is: ${my_array[3]}"
+num_1=${my_array[3]}
+num_2=${my_array[3]}
+echo "$((num_1+num_2))"
+echo "value of 4th index before adding is: ${my_array[4]]}"
+my_array[4]="hello"
+echo "value of 4th index aftr adding is: ${my_array[4]}"
