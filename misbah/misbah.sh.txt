@@ -1,0 +1,19 @@
+#!/bin/sh
+#author:misbah
+
+hello(){
+        echo "hello , world "
+}
+hello
+~                                                                                                                                         
+~                                                                                                                                         
+~                                                                                                                                         
+~                                                                                                                                         
+~                                                                                                                                         
+~                                                                                                                                         
+~                                                                                                                                         
+~                                                                                                                                         
+~                                                                                                                                         
+~                                                                                                                                         
+~                                                                                                                                         
+~                                                         

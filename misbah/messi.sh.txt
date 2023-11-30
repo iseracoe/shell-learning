@@ -1,0 +1,8 @@
+#!/bin/sh
+#Author; misbah
+echo "my name is misbah"
+ls
+pwd
+
+~                                                                                                                                               
+~                                                                                                                                               
